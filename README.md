@@ -20,7 +20,13 @@ This is our IEEE SSCS Chipathon 2026 proposal entry for AI-powered analog IC, ta
 
 ##	Overview
 
-Inspired by Prof. Kaushik Sengupta’s work on AI-enabled RFIC design, we are interested in using a similar AI-powered approach, leveraging [recursive self-improvement](https://arxiv.org/abs/1312.6764), to engineer analog deep learning hardware accelerators. 
+Inspired by [Prof. Kaushik Sengupta’s work on AI-enabled RFIC design](https://www.youtube.com/watch?v=qBQFvjvMY9k), we are interested in using a similar AI-powered approach, leveraging [recursive self-improvement](https://arxiv.org/abs/1312.6764), to engineer analog deep learning hardware accelerators. 
+
+
+##	Objectives
+
++ To develop a multi-modal AI-powered analog or radio frequency (RF) IC design flow
++ To apply the aforementioned AI-powered IC design flow for designing analog deep learning hardware accelerators
 
 
 ##	Explanations
@@ -49,10 +55,6 @@ Required pins: 6
 [Layout Review Slide Link]()
 
 
-##	Objectives
-
-+ To develop a multi-modal AI-powered analog or radio frequency (RF) IC design flow
-+ To apply the aforementioned AI-powered IC design flow for designing analog deep learning hardware accelerators
 
 ##	Acknowledgments
 
