@@ -56,6 +56,9 @@ Required pins: 6
 
 
 
+
+[Proposal Slide Link](https://github.com/sscs-ose/sscs-chipathon-2026/blob/main/resources/documents/template_2026_ChipathonProposals.pptx)
+
 ##	Acknowledgments
 
 [We are inspired by the resilient start-up Mythic.AI that refuses to go bankrupt, and keeps bouncing back.](https://mythic.ai/join-us/)
