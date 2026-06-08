@@ -6,4 +6,5 @@
 \beamer@subsectionintoc {2}{3}{Subsection 2.2}{7}{0}{2}
 \beamer@sectionintoc {3}{Section 3}{8}{0}{3}
 \beamer@subsectionintoc {3}{1}{Team Members' Experiences}{8}{0}{3}
-\beamer@subsectionintoc {3}{2}{Subsection 3.2}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Team Members' Experiences}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Subsection 3.2}{11}{0}{3}

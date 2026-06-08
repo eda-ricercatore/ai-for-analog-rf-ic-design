@@ -13,9 +13,16 @@ This is our IEEE SSCS Chipathon 2026 proposal entry for AI-powered analog IC, ta
 | Discord | Github | Affiliation (experience) | Role |
 |---|---|---|---|
 | giovanni.ong | @eda-ricercatore | Texas A&M University (long-suffering Ph.D. student) | Team (co-)lead |
+| anuj060038 | @annu96679-droid | National Institute of Technology Warangal (Master's student) | Team member |
 | your_discord_name | @your_github_username | XXY University (post-graduate) | Team (co-)lead |
 | discord_name | @github | XXY University (post-graduate) | Team (co-)lead |
 | member1 | @memb1 | XYY University (undergrad) | circuit design |
+
+
+
+
+
+
 
 
 ##	Overview
