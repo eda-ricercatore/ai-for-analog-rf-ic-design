@@ -48,7 +48,7 @@ Required pins: 6
 ##	Links
 
 [Github repo(s)](https://github.com/eda-ricercatore/ai-for-analog-rf-ic-design):
-[Proposal Slide Link](https://github.com/sscs-ose/sscs-chipathon-2026/blob/main/resources/documents/template_2026_ChipathonProposals.pptx)
+[Proposal Slide Link](https://github.com/eda-ricercatore/ai-for-analog-rf-ic-design/blob/main/proposal/proposal-slides/ai4aichips_proj_proposal.pdf)
 [Pin Requirement Link](https://docs.google.com/spreadsheets/d/1pHG3cbpYbGc9qAq9G-NZkLor6GjWBoljDVpwNgFM__g/edit?usp=sharing)
 [Progress tracker]()
 [Schematic Review Slide Link]()
