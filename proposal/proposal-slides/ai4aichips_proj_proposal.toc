@@ -3,8 +3,10 @@
 \beamer@sectionintoc {2}{Project Information}{4}{0}{2}
 \beamer@subsectionintoc {2}{1}{Goal and Application}{4}{0}{2}
 \beamer@subsectionintoc {2}{2}{Design}{5}{0}{2}
-\beamer@subsectionintoc {2}{3}{Subsection 2.2}{7}{0}{2}
-\beamer@sectionintoc {3}{Section 3}{8}{0}{3}
-\beamer@subsectionintoc {3}{1}{Team Members' Experiences}{8}{0}{3}
-\beamer@subsectionintoc {3}{2}{Team Members' Experiences}{9}{0}{3}
-\beamer@subsectionintoc {3}{3}{Subsection 3.2}{11}{0}{3}
+\beamer@sectionintoc {3}{Section 3}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{Team Members' Experiences}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{Team Members' Experiences}{8}{0}{3}
+\beamer@subsectionintoc {3}{3}{Tasks}{9}{0}{3}
+\beamer@subsectionintoc {3}{4}{Tasks -- Continued}{10}{0}{3}
+\beamer@subsectionintoc {3}{5}{Subsection 2.2}{12}{0}{3}
+\beamer@subsectionintoc {3}{6}{Subsection 3.2}{13}{0}{3}
