@@ -70,7 +70,10 @@ Required pins: 6
 
 We use the following guidelines to help us with conflict resolution and consensus building: https://github.com/eda-ricercatore/guidelines.
 
-A Python script is used to generate Gantt chart(s) to reflect planned project schedule and the current state of progress.
+A Python script is used to generate Gantt chart(s) to reflect planned project schedule and the current state of progress. It should read the information from a JSON file that can store the information with better readability than a file/database in other formats, like comma-separated values (CSV) files or tab-separated values (TSV) files.
+
+
+
 
 ##	Acknowledgments
 
