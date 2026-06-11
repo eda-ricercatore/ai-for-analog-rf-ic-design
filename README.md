@@ -70,7 +70,7 @@ Required pins: 6
 
 We use the following guidelines to help us with conflict resolution and consensus building: https://github.com/eda-ricercatore/guidelines.
 
-A Python script is used to generate 
+A Python script is used to generate Gantt chart(s) to reflect planned project schedule and the current state of progress.
 
 ##	Acknowledgments
 
