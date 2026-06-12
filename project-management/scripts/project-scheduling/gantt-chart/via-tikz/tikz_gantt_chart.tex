@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{ganttchart}[
+    % Canvas settings
+    canvas/.append style={fill=none, draw=black!5, line width=.75pt},
+    hgrid style/.style={draw=black!5, line width=.75pt},
+    vgrid={*1{draw=black!5, line width=.75pt}},
+    % Title settings
+    title/.style={draw=none, fill=none},
+    title label font=\bfseries\footnotesize,
+    title label node/.append style={below=7pt},
+    include title in canvas=false,
+    % Bar settings
+    bar/.append style={fill=cyan!60},
+    bar height=0.6,
+    bar label font=\mdseries\small\color{black!70},
+    bar label node/.append style={left=2cm},
+    % Group settings
+    group/.append style={fill=blue!60},
+    group height=0.4,
+    % Milestone settings
+    milestone/.append style={fill=red!75},
+    milestone height=0.8
+]{1}{12} % Chart goes from time slot 1 to 12
+
+    % Draw titles
+    \gantttitle{2026 Project Schedule}{12} \\
+    \gantttitlelist{1,...,12}{1} \\ % Numbered columns
+    
+    % Tasks
+    \ganttgroup{Planning Phase}{1}{4} \\
+    \ganttbar{Define Requirements}{1}{2} \\
+    \ganttbar{Resource Allocation}{3}{4} \\
+    
+    \ganttgroup{Execution Phase}{5}{10} \\
+    \ganttbar{Drafting Content}{5}{8} \\
+    \ganttbar{Testing \& Revisions}{9}{10} \\
+    
+    \ganttgroup{Closing Phase}{11}{12} \\
+    \ganttbar{Final Review}{11}{11} \\
+    \ganttmilestone{Project Delivery}{12}
+
+\end{ganttchart}
+
+\end{document}
