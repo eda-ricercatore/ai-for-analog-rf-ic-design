@@ -75,19 +75,20 @@
 	\title[Cover Title]
 	{AI-Powered Analog Deep Learning Hardware Accelerator Design}
 	\subtitle{Track: D: AI4AIchips}
-	\author{Zhiyang Ong\inst{1} \and Anuj\inst{2}}
+%	\author{Zhiyang Ong\inst{1} \and Anuj\inst{2}}
+	\author{Zhiyang Ong\inst{1}}
 	\institute{
 		\inst{1}
 		Department of Electrical and Computer Engineering, College of Engineering \\
 		Texas A\&M University \\
 		College Station, TX \\
 		U.S.A.
-		\and
-		\inst{2}
-		Department of Electronics and Communication Engineering \\
-		National Institute of Technology Warangal \\
-		Warangal, Warangal district, Telangana \\
-		India
+%		\and
+%		\inst{2}
+%		Department of Electronics and Communication Engineering \\
+%		National Institute of Technology Warangal \\
+%		Warangal, Warangal district, Telangana \\
+%		India
 	}
 	\date{\today}	% (optional)
 	\subject{Subject Title}
@@ -134,12 +135,29 @@
 \subsection{Acknowledgments}
 
 \begin{frame}
-	\frametitle{Acknowledgments}
+	\frametitle{Acknowledgments (1)}
 	Dr. Francesco Stefanni, former labmate of Zhiyang Ong at University of Verona, who helped him craft \LaTeX\ presentation slides. \\
 	\ \\
 	The engineers of Mythic AI (Austin, TX) for showing us that analog in-memory computing is plausible, and their inspirational grit, from refusing to let their start-up go bankrupt multiple times, motivates us to be resilient in completing the IEEE SSCS Chipathon 2026 project. \\
 	\ \\
 	Prof. Kaushik Sengupta at Princeton University and Prof. David Z Pan at The Awesome and Mighty University of Texas at Austin (trolling Aggieland haters, Go Longhorns!!!., Hook'em horns!!!) for inspiring us to craft AI-powered electronic design automation tools to kill IC design jobs.
+\end{frame}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Acknowledgments
+%	Slide 3
+
+
+\begin{frame}
+	\frametitle{Acknowledgments (2)}
+	Prof. Mehdi Saligane for showing us how to use LLMs (or even agentic AI) to process IC design files, by working with source/design files in much more common computer languages or dialects/variants thereof, such as Python/PyMTL, instead of Clash/Haskell, Chisel HDL/Scala, or Hardcaml/OCaml. This is from the ``IEEE Solid-State Circuits Directions Series, Think Impact with ICs: From Words to Circuits: Agentic AI, Foundation Models, and Open EDA Workshop.'' \\
+	\ \\
+	Prof. Mohsen Imani at UC Irvine for showing us how to use equivalent/approximate circuits to model semiconductor device models of memristors or floating-gate MOSFETs. \\
+	\ \\
+	Prof. Peng Li at UCSB for showing us how to perform element stamping during the initial phase of circuit simulation, to swap semiconductor device models with their simpler models using approximate circuits.
 \end{frame}
 
 
@@ -217,6 +235,53 @@
 \end{frame}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 6
+\begin{frame}
+	\frametitle{Slide Title 6}
+	\framesubtitle{Slide Subtitle 6.}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=2.6in]{./pics/my_figure}
+		\caption{Caption \#2}
+	\end{figure}
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 6
+\begin{frame}
+	\frametitle{https://doi.org/10.1038/s44335-025-00044-2}
+	\framesubtitle{``Achieving high precision in analog in-memory computing systems''}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=2.0in]{./pics/Mannocci2026}
+		\caption{Caption \#2}
+	\end{figure}
+\end{frame}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	Slide 6
+\begin{frame}
+	\frametitle{https://doi.org/10.1109/IEDM13553.2020.9372124}
+	\framesubtitle{``Ultra-Low Power Flexible Precision FeFET Based Analog In-Memory Computing''}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[height=2.6in]{./pics/Soliman2020}
+		\caption{Caption \#2}
+	\end{figure}
+\end{frame}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 4
 %	Subsection 2.1
@@ -229,29 +294,29 @@
 %	proposal quality (as an indicator to attention to detail)
 
 
-\begin{frame}
-	\frametitle{Project Information}
-	\framesubtitle{Design -- High Level Proposal (2-3 sentences + Image)}
-	
-	%	Replace with picture/schematic
-	\begin{columns}[t]			% Contents are top vertically aligned
-		\begin{column}[T]{5cm}	% Each column can also be its own environment
-		
-		Use semiconductor device models of memristors and floating-gate MOSFETS to approximate memristive and floating-gate MOSFET -based analog in-memory computing systems \\
-		\ \\
-		Implement analog in-memory computing systems by replacing SRAM cell in SRAM subsystem with approximate RAM cell circuit model, based on the aforementioned semiconductor device models \\
-		
-		\end{column}
-		
-		\begin{column}[T]{5cm}	% Alternative top-align that's better for graphics
-			\begin{figure}
-			\centering
-			\includegraphics[height=2in]{./pics/my_figure}
-			\caption{My caption \cite{Petroski1992,Kopka2004}}
-			\end{figure}
-		\end{column}
-	\end{columns}
-\end{frame}
+%	\begin{frame}
+%		\frametitle{Project Information}
+%		\framesubtitle{Design -- High Level Proposal (2-3 sentences + Image)}
+%		
+%		%	Replace with picture/schematic
+%		\begin{columns}[t]			% Contents are top vertically aligned
+%			\begin{column}[T]{5cm}	% Each column can also be its own environment
+%			
+%			Use semiconductor device models of memristors and floating-gate MOSFETS to approximate memristive and floating-gate MOSFET -based analog in-memory computing systems \\
+%			\ \\
+%			Implement analog in-memory computing systems by replacing SRAM cell in SRAM subsystem with approximate RAM cell circuit model, based on the aforementioned semiconductor device models \\
+%			
+%			\end{column}
+%			
+%			\begin{column}[T]{5cm}	% Alternative top-align that's better for graphics
+%				\begin{figure}
+%				\centering
+%				\includegraphics[height=2in]{./pics/my_figure}
+%				\caption{My caption \cite{Petroski1992,Kopka2004}}
+%				\end{figure}
+%			\end{column}
+%		\end{columns}
+%	\end{frame}
 
 
 
@@ -292,29 +357,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 5
 %	Team Members' Experiences
-\subsection{Team Members' Experiences}
-
-
-\begin{frame}
-	\frametitle{Team Members' Experiences -- Anuj}
-	%\framesubtitle{Slide Subtitle 4}
-	
-	
-	\begin{itemize}
-	\item Anuj: %\vspace{-0.3cm}
-		\begin{itemize} %\itemsep -2pt
-		\item Physical design experience and VLSI DFM tool usage for digital ICs, such as: Ariane 64-bit RISC-V application processor core, USB physical layer (PHY), and RISC-V -based SoC.
-%	Executed logic synthesis and design constraints optimization for the Ariane 64-bit RISC-V application processor core on a 45nm node, successfully managing a complex netlist of ?90K standard cells and 137 macros.? Developing block-level floorplanning and initial macro placement strategies to optimize area efficiency, congestion, and wirelength for the high-macro-count design.
-%	USB PHY? Multi-Voltage Physical Design | 32nm Node: EDA Tools: Synopsys IC Compiler II (ICC2), Design Compiler? Executed complete RTL-to-GDSII flow using ICC2 & Design Compiler for a 12 Mbps USB PHY (? 6.6K cells), achieving DRC/LVS clean signoff with +4.64 ns setup WNS and positive hold slack.? Designed UPF-based dual-voltage floorplan (1.16V/0.95V) with level shifters and PDN, and optimized placement, CTS & routing (30 ps skew, low congestion) using NDR and DFM techniques.
-%	RISC-V SoC RTL-to-GDSII Physical Implementation | SKY130 PDK: Executed complete RTL-to-GDSII flow using OpenLANE/OpenROAD for a RISC-V SoC (? 32K instances), integrating mixed-signal macros (PLL/DAC) and achieving optimized floorplan with reduced wirelength.? Performed placement, CTS & STA optimization, achieving timing closure (0 WNS/TNS) with +5.55 ns setup slack, 21 mW power, and low routing congestion (<3%) with DRC-clean signof
-
-%	Executed logic synthesis and design constraints optimization for the Ariane 64-bit RISC-V application processor core on a 45nm node, successfully managing a complex netlist of ?90K standard cells and 137 macros.? Developing block-level floorplanning and initial macro placement strategies to optimize area efficiency, congestion, and wirelength for the high-macro-count design.
-%	USB PHY? Multi-Voltage Physical Design | 32nm Node: EDA Tools: Synopsys IC Compiler II (ICC2), Design Compiler? Executed complete RTL-to-GDSII flow using ICC2 & Design Compiler for a 12 Mbps USB PHY (? 6.6K cells), achieving DRC/LVS clean signoff with +4.64 ns setup WNS and positive hold slack.? Designed UPF-based dual-voltage floorplan (1.16V/0.95V) with level shifters and PDN, and optimized placement, CTS & routing (30 ps skew, low congestion) using NDR and DFM techniques.
-%	RISC-V SoC RTL-to-GDSII Physical Implementation | SKY130 PDK: Executed complete RTL-to-GDSII flow using OpenLANE/OpenROAD for a RISC-V SoC (? 32K instances), integrating mixed-signal macros (PLL/DAC) and achieving optimized floorplan with reduced wirelength.? Performed placement, CTS & STA optimization, achieving timing closure (0 WNS/TNS) with +5.55 ns setup slack, 21 mW power, and low routing congestion (<3%) with DRC-clean signof
-		\end{itemize}
-	\end{itemize}
-	
-\end{frame}
+%	\subsection{Team Members' Experiences}
+%	
+%	
+%	\begin{frame}
+%		\frametitle{Team Members' Experiences -- Anuj}
+%		%\framesubtitle{Slide Subtitle 4}
+%		
+%		
+%		\begin{itemize}
+%		\item Anuj: %\vspace{-0.3cm}
+%			\begin{itemize} %\itemsep -2pt
+%			\item Physical design experience and VLSI DFM tool usage for digital ICs, such as: Ariane 64-bit RISC-V application processor core, USB physical layer (PHY), and RISC-V -based SoC.
+%	%	Executed logic synthesis and design constraints optimization for the Ariane 64-bit RISC-V application processor core on a 45nm node, successfully managing a complex netlist of ?90K standard cells and 137 macros.? Developing block-level floorplanning and initial macro placement strategies to optimize area efficiency, congestion, and wirelength for the high-macro-count design.
+%	%	USB PHY? Multi-Voltage Physical Design | 32nm Node: EDA Tools: Synopsys IC Compiler II (ICC2), Design Compiler? Executed complete RTL-to-GDSII flow using ICC2 & Design Compiler for a 12 Mbps USB PHY (? 6.6K cells), achieving DRC/LVS clean signoff with +4.64 ns setup WNS and positive hold slack.? Designed UPF-based dual-voltage floorplan (1.16V/0.95V) with level shifters and PDN, and optimized placement, CTS & routing (30 ps skew, low congestion) using NDR and DFM techniques.
+%	%	RISC-V SoC RTL-to-GDSII Physical Implementation | SKY130 PDK: Executed complete RTL-to-GDSII flow using OpenLANE/OpenROAD for a RISC-V SoC (? 32K instances), integrating mixed-signal macros (PLL/DAC) and achieving optimized floorplan with reduced wirelength.? Performed placement, CTS & STA optimization, achieving timing closure (0 WNS/TNS) with +5.55 ns setup slack, 21 mW power, and low routing congestion (<3%) with DRC-clean signof
+%	
+%	%	Executed logic synthesis and design constraints optimization for the Ariane 64-bit RISC-V application processor core on a 45nm node, successfully managing a complex netlist of ?90K standard cells and 137 macros.? Developing block-level floorplanning and initial macro placement strategies to optimize area efficiency, congestion, and wirelength for the high-macro-count design.
+%	%	USB PHY? Multi-Voltage Physical Design | 32nm Node: EDA Tools: Synopsys IC Compiler II (ICC2), Design Compiler? Executed complete RTL-to-GDSII flow using ICC2 & Design Compiler for a 12 Mbps USB PHY (? 6.6K cells), achieving DRC/LVS clean signoff with +4.64 ns setup WNS and positive hold slack.? Designed UPF-based dual-voltage floorplan (1.16V/0.95V) with level shifters and PDN, and optimized placement, CTS & routing (30 ps skew, low congestion) using NDR and DFM techniques.
+%	%	RISC-V SoC RTL-to-GDSII Physical Implementation | SKY130 PDK: Executed complete RTL-to-GDSII flow using OpenLANE/OpenROAD for a RISC-V SoC (? 32K instances), integrating mixed-signal macros (PLL/DAC) and achieving optimized floorplan with reduced wirelength.? Performed placement, CTS & STA optimization, achieving timing closure (0 WNS/TNS) with +5.55 ns setup slack, 21 mW power, and low routing congestion (<3%) with DRC-clean signof
+%			\end{itemize}
+%		\end{itemize}
+%		
+%	\end{frame}
 
 
 
@@ -379,16 +444,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 6
-\begin{frame}
-	\frametitle{Slide Title 6}
-	\framesubtitle{Slide Subtitle 6.}
-	
-	\begin{figure}
-		\centering
-		\includegraphics[height=2.6in]{./pics/my_figure}
-		\caption{Caption \#2}
-	\end{figure}
-\end{frame}
+
+
+%	\begin{frame}
+%		\frametitle{Slide Title 6}
+%		\framesubtitle{Slide Subtitle 6.}
+%		
+%		\begin{figure}
+%			\centering
+%			\includegraphics[height=2.6in]{./pics/my_figure}
+%			\caption{Caption \#2}
+%		\end{figure}
+%	\end{frame}
 
 
 
@@ -399,16 +466,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 5
-\begin{frame}
-	\frametitle{Slide Title 5}
-	\framesubtitle{Slide Subtitle 5.}
-	
-	Statement 1 \cite{vanDongen2012}. \\
-	\ \\
-	Statement 2. \\
-	\ \\
-	Statement 3.
-\end{frame}
+
+
+%	\begin{frame}
+%		\frametitle{Slide Title 5}
+%		\framesubtitle{Slide Subtitle 5.}
+%		
+%		Statement 1 \cite{vanDongen2012}. \\
+%		\ \\
+%		Statement 2. \\
+%		\ \\
+%		Statement 3.
+%	\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -417,16 +486,18 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %	Slide 7
-\begin{frame}
-	\frametitle{Questions, Suggestions, Doubts?}
-	%\framesubtitle{Slide Subtitle 7.}
-	
-	Statement 1 \cite{vanDongen2012}. \\
-	\ \\
-	Statement 2. \\
-	\ \\
-	Statement 3.
-\end{frame}
+
+
+%	\begin{frame}
+%		\frametitle{Questions, Suggestions, Doubts?}
+%		%\framesubtitle{Slide Subtitle 7.}
+%		
+%		Statement 1 \cite{vanDongen2012}. \\
+%		\ \\
+%		Statement 2. \\
+%		\ \\
+%		Statement 3.
+%	\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -437,6 +508,12 @@
 	\frametitle{References}
 	\bibliographystyle{plain}
 	\bibliography{references/references}
+	
+	https://doi.org/10.1109/IEDM13553.2020.9372124 \\
+	\ \\
+	https://doi.org/10.1038/s44335-025-00044-2 \\
+	\ \\
+	https://doi.org/10.1109/MSSC.2024.3462388
 \end{frame}
 }
 
