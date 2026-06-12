@@ -4,6 +4,12 @@
 
 
 
+"""
+   Source code obtained from a Google search for: gantt chart python 
+   https://www.youtube.com/watch?v=046bYiKXIlg&t=15
+"""
+
+
 import matplotlib.pyplot as plt
 import pandas as pd
 
