@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage{umlpackage}
+\begin{document}
+
+\begin{tikzpicture}
+
+	\begin{umlpackage}{p}
+\begin{umlpackage}{sp1}
+\umlclass[template=T]{A}{
+  n : uint \\ t : float
+  }{}
+\umlclass[y=-3]{B}{
+  d : double
+  }{
+  \umlvirt{setB(b : B) : void} \\ getB() : B
+}
+\end{umlpackage}
+\begin{umlpackage}[x=10, y=-6]{sp2}
+\umlinterface{C}{
+  n : uint \\ s : string
+  }{}
+\end{umlpackage}
+\umlclass[x=2, y=-10]{D}{
+  n : uint
+  }{}
+\end{umlpackage}
+\umlassociate[geometry=-|-, arg1=tata, mult1=*, pos1=0.3, arg2=toto, mult2=1, pos2=2.9, align2=left]{C}{B}
+\umlunicompose[geometry=-|, arg=titi, mult=*, pos=1.7, stereo=vector]{D}{C}
+\umlimport[geometry=|-, anchors=90 and 50, name=import]{sp2}{sp1}
+\umlaggregate[arg=tutu, mult=1, pos=0.8, angle1=30, angle2=60, loopsize=2cm]{D}{D}
+\umlinherit[geometry=-|]{D}{B}
+\umlnote[x=2.5, y=-6, width=11ex]{B}{I am a note about B}
+\umlnote[x=7.5, y=-2]{import-2}{I am a note about the import relation}
+
+\end{tikzpicture}
+
+%Local variables:
+% coding: utf-8
+% mode: text
+% mode: rst
+% End:
+% vim: fileencoding=utf-8 filetype=tex :
+
+
+\end{document}

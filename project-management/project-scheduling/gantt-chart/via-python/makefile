@@ -16,3 +16,6 @@ sipsjpg:
 	sips -s format jpg -o test_resources.jpg test_resources.svg
 	sips -s format jpg -o test_weekly.jpg test_weekly.svg
 	sips -s format jpg -o test.jpg test.svg
+
+librsvg:
+	rsvg-convert -f pdf -o test_full2.pdf test_full2.svg
