@@ -15,8 +15,7 @@ This is our IEEE SSCS Chipathon 2026 proposal entry for AI-powered analog IC, ta
 | giovanni.ong | @eda-ricercatore | Texas A&M University (long-suffering Ph.D. student) | Team (co-)lead |
 | anuj060038 | @annu96679-droid | National Institute of Technology Warangal (pursuing Post Graduation) | Team (co-)lead |
 | your_discord_name | @your_github_username | XXY University (post-graduate) | Team (co-)lead |
-| discord_name | @github | XXY University (post-graduate) | Team (co-)lead |
-| member1 | @memb1 | XYY University (undergrad) | circuit design |
+
 
 
 
@@ -56,6 +55,7 @@ Required pins: 6
 
 [Github repo(s)](https://github.com/eda-ricercatore/ai-for-analog-rf-ic-design):
 [Proposal Slide Link](https://github.com/eda-ricercatore/ai-for-analog-rf-ic-design/blob/main/proposal/proposal-slides/ai4aichips_proj_proposal.pdf)
+	+ [SmallpdfAGStaff2026] allows us to use its free file format conversion services, which can transform Portable Document Format (PDF) files to Microsoft PowerPoint (PPT).
 [Pin Requirement Link](https://docs.google.com/spreadsheets/d/1pHG3cbpYbGc9qAq9G-NZkLor6GjWBoljDVpwNgFM__g/edit?usp=sharing)
 [Progress tracker]()
 [Schematic Review Slide Link]()
