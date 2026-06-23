@@ -28,31 +28,33 @@
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {2}{2}{3}{8/8}{Design}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {2}{2}{4}{9/9}{Design}{0}}
+\headcommand {\beamer@sectionpages {5}{8}}
+\headcommand {\beamer@subsectionpages {6}{8}}
+\headcommand {\sectionentry {3}{Section 3}{9}{Section 3}{0}}
+\headcommand {\beamer@subsectionpages {9}{8}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{9}{Team Members' Experiences}}
+\headcommand {\slideentry {3}{1}{1}{9/9}{Team Members' Experiences}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {5}{9}}
-\headcommand {\beamer@subsectionpages {6}{9}}
-\headcommand {\sectionentry {3}{Section 3}{10}{Section 3}{0}}
-\headcommand {\beamer@subsectionpages {10}{9}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{10}{Team Members' Experiences}}
-\headcommand {\slideentry {3}{1}{1}{10/10}{Team Members' Experiences}{0}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{10}{Team Members' Experiences}}
+\headcommand {\slideentry {3}{2}{1}{10/10}{Team Members' Experiences}{0}}
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@subsectionpages {10}{10}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{11}{Tasks}}
-\headcommand {\slideentry {3}{2}{1}{11/11}{Tasks}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{11}{Tasks}}
+\headcommand {\slideentry {3}{3}{1}{11/11}{Tasks}{0}}
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{12}{Tasks -- Continued}}
-\headcommand {\slideentry {3}{3}{1}{12/12}{Tasks -- Continued}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{12}{Tasks -- Continued}}
+\headcommand {\slideentry {3}{4}{1}{12/12}{Tasks -- Continued}{0}}
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{13}{Subsection 2.2}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{13}{Subsection 2.2}}
 \headcommand {\beamer@subsectionpages {13}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{13}{Subsection 3.2}}
-\headcommand {\slideentry {3}{5}{1}{13/13}{Subsection 3.2}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{13}{Subsection 3.2}}
+\headcommand {\slideentry {3}{6}{1}{13/13}{Subsection 3.2}{0}}
 \headcommand {\beamer@framepages {13}{13}}
 \headcommand {\beamer@partpages {1}{13}}
 \headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\beamer@sectionpages {10}{13}}
+\headcommand {\beamer@sectionpages {9}{13}}
 \headcommand {\beamer@documentpages {13}}
 \headcommand {\gdef \inserttotalframenumber {13}}
